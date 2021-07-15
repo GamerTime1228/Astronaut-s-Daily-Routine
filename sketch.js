@@ -6,11 +6,11 @@ var wall1, wall2, wall3, wall4
 function preload() {
   bg = loadImage("images/iss.png");
   sleep = loadAnimation("images/sleep.png");
-  brush = loadAnimation("images/brush.png");
-  gym = loadAnimation("images/gym1.png", "images/gym2.png");
-  eat = loadAnimation("images/eat1.png", "images/eat2.png");
-  drink = loadAnimation("images/drink1.png", "images/drink2.png");
-  move1 = loadAnimation("images/move2.png", "images/move1.png");
+  brush = loadAnimation("../images/brush.png");
+  gym = loadAnimation("../images/gym1.png", "../images/gym2.png");
+  eat = loadAnimation("../images/eat1.png", "../images/eat2.png");
+  drink = loadAnimation("../images/drink1.png", "../images/drink2.png");
+  move1 = loadAnimation("../images/move2.png", "../images/move1.png");
 }
 
 function setup() {
@@ -92,7 +92,7 @@ function draw() {
     astronaut.x = 400;
     astronaut.y = 250;
     astronaut.velocityX = 2;
-    astronaut.velocityY = 2;
+    astronaut.velocityY = 0;
   }
 
   astronaut.bounceOff(wall1);
