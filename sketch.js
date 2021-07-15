@@ -4,8 +4,8 @@ var background
 var wall1, wall2, wall3, wall4
 
 function preload() {
-  bg = loadImage("images/iss.png");
-  sleep = loadAnimation("images/sleep.png");
+  bg = loadImage("../images/iss.png");
+  sleep = loadAnimation("../images/sleep.png");
   brush = loadAnimation("../images/brush.png");
   gym = loadAnimation("../images/gym1.png", "../images/gym2.png");
   eat = loadAnimation("../images/eat1.png", "../images/eat2.png");
